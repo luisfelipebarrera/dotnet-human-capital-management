@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Persistence.Context;
 
-public class FalckHCManagementDBContext : DbContext
+public class HCManagementDBContext : DbContext
 {
-    public FalckHCManagementDBContext(DbContextOptions<FalckHCManagementDBContext> options) : base(options)
+    public HCManagementDBContext(DbContextOptions<HCManagementDBContext> options) : base(options)
     {
     }
 
